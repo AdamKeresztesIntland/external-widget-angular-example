@@ -1,10 +1,10 @@
 {
     "documentViewWidgets": [
         {
-            "enabled": "${type == 'Task'}",
+            "enabled": true,
             "externalWidgetConfig": {
-                "id": "test-widget",
-                "name": "Test Widget",
+                "id": "test-widget1",
+                "name": "Test Widget 1",
                 "viewUrl": "/",
                 "iconUrl": "/assets/chart.png"
             }
@@ -12,10 +12,10 @@
     ],
     "itemDetailsWidgets": [
         {
-            "enabled": "${type == 'Task'}",
+            "enabled": true,
             "externalWidgetConfig": {
-                "id": "test-widget",
-                "name": "Test Widget",
+                "id": "test-widget2",
+                "name": "Test Widget 2",
                 "viewUrl": "/",
                 "iconUrl": "/assets/chart.png"
             }
@@ -23,7 +23,7 @@
     ],
     "dashboardWidgets": [
         {
-            "enabled": "${(name eq null) or (name eq 'Intland Software\\'s Default Template')}",
+            "enabled": true,
             "externalWidgetConfig": {
                 "id": "test-dashboard-widget",
                 "name": "Test Dashboard Widget",
